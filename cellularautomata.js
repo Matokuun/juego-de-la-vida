@@ -86,7 +86,7 @@ class CellularAutomata{
         this.cells=cellsAux;
     }
 }
-//patrón (aca se puede poner cualquier patron, si se usa, agregarlo en el constructor)
+//patrón (aca se puede poner cualquier patron)
 
 //patrón "Cañón planeador de Gosper"
 /*const cells= new Array(100).fill("").map(()=> new Array(100).fill(false));
@@ -133,4 +133,4 @@ const ctx= canvas.getContext('2d');
 //const cellularAutomata= new CellularAutomata(100,ctx,cells); 
 const cellularAutomata= new CellularAutomata(100,ctx); //100 pixeles, y tambien mandamos contexto
 cellularAutomata.create();
-setInterval(()=> cellularAutomata.next(),100); //cada segundo se ejecuta next
+setInterval(()=> cellularAutomata.next(),1000); //cada segundo se ejecuta next
