@@ -1,0 +1,3 @@
+# juego-de-la-vida
+Juego de la vida, programado con JS.
+Un autómata celular consiste en una cuadrícula regular de "células", cada una de las cuales contiene un "estado" elegido de un conjunto finito y que puede cambiar con el tiempo. El estado de una celda en el momento t + 1 es una función del estado en el momento t de un número finito de celdas llamado su "vecindad". Con cada nueva unidad de tiempo, las mismas reglas se aplican simultáneamente a todas las celdas de la cuadrícula, produciendo una nueva “generación” de celdas que depende completamente de la generación anterior. El juego de la vida es un autómata celular imaginado por John Horton Conway en 1970 y que es probablemente el más conocido de todos los autómatas celulares.
